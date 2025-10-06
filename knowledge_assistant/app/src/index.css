@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+.container-max { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+.card { @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4; }
+.btn { @apply inline-flex items-center justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium; }
+.btn-primary { @apply btn bg-black text-white hover:bg-gray-800; }
+.btn-secondary { @apply btn bg-white text-gray-900 border-gray-300 hover:bg-gray-50; }
+.input, .textarea, .select, .number { @apply w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black; }

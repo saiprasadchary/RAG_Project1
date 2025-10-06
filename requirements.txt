@@ -1,0 +1,10 @@
+fastapi>=0.112
+uvicorn
+pydantic>=2,<3
+python-dotenv
+requests
+beautifulsoup4
+pdfplumber
+sentence-transformers
+chromadb
+tiktoken
